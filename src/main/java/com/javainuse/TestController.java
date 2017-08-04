@@ -18,4 +18,8 @@ public class TestController {
 			return new ModelAndView("contactus");
 		}
 
+		@RequestMapping("/index.html")
+		public ModelAndView indexPage() {
+			return new ModelAndView("index");
+		}
 }
