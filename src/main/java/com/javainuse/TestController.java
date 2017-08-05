@@ -7,17 +7,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class TestController {
 
-	@RequestMapping("/welcome.html")
-	public ModelAndView firstPage() {
-		return new ModelAndView("welcome");
-	}
-	
-
-		@RequestMapping("/contactus.html")
-		public ModelAndView secondPage() {
-			return new ModelAndView("contactus");
-		}
-
 		@RequestMapping("/index.html")
 		public ModelAndView indexPage() {
 			return new ModelAndView("index");
